@@ -1,0 +1,8 @@
+---
+- name: First play
+  hosts: all
+  tasks:
+    - name: Say hello task
+      debug:
+        msg: Hallo world from Ansible
+
