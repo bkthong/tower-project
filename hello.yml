@@ -1,8 +1,10 @@
 ---
 - name: First play
   hosts: all
+  vars:
+    myname: john
   tasks:
     - name: Say hello task
       debug:
-        msg: Hallo world from Ansible
+        msg: Hallo world to {{ myname}} from Ansible
 
