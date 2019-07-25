@@ -1,0 +1,7 @@
+- name: Play that uses a fact and depends on fact caching
+  gather_facts: no
+  hosts: localhost
+  tasks:
+    - debug:
+        msg: The ip address is {{ ansible_facts.default_ipv4.address }} 
+
