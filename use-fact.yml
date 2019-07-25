@@ -4,4 +4,5 @@
   tasks:
     - debug:
         msg: The ip address is {{ ansible_facts.default_ipv4.address }} 
-
+    - debug:
+        msg: The ip address using old fact {{ ansible_default_ipv4.address }}
