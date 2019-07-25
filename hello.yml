@@ -3,8 +3,9 @@
   hosts: all
   vars:
     myname: john
+    greeting: Good morning
   tasks:
     - name: Say hello task
       debug:
-        msg: Hallo world to {{ myname}} from Ansible
+        msg: "{{ greeting }} Hallo world to {{ myname}} from Ansible"
 
