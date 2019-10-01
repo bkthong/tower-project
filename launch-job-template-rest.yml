@@ -16,4 +16,8 @@
         password: "{{ tower_pass }}"
         force_basic_auth: yes
         status_code: 201
-
+      register: output
+    - name: Show the return output
+      debug:
+        var: output
+        verbosity: 1
