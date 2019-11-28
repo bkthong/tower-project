@@ -1,5 +1,0 @@
-- name: asdas
-  hosts: all
-  tasks:
-  - debug:
-       msg: test
