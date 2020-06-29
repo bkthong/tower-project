@@ -3,7 +3,7 @@
   hosts: all
   vars:
     myname: john
-    greeting: Good morning
+    greeting: peace to you
   tasks:
     - name: Say hello task
       debug:
