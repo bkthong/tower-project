@@ -7,7 +7,7 @@
   tasks:
     - name: Say hello task
       debug:
-        msg: "{{ greeting }} to {{ myname}} from Ansible"
+        msg: "{{ greeting }} to {{ myname}} from Ansible Tower"
       tags:
       - prod
 
