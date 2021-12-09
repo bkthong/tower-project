@@ -9,9 +9,6 @@
     - name: Say hello task
       debug:
         msg: "{{ greeting }} to {{ myname}} from Ansible Tower"
-    - name: Say hello number 2
-      debug:
-        msg: "hallo hallo"
       tags:
       - prod
 
