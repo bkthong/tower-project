@@ -4,7 +4,7 @@
   hosts: all
   tasks:
   - name: Format /dev/vdb with ext4
-    communitty.general.filesystem:
+    community.general.filesystem:
       fstype: ext4
       dev: /dev/vdb
 
