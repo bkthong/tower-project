@@ -1,0 +1,6 @@
+---
+# Usage:     ansible-galaxy collection install -p COLLECTIONS_DIR  -r THIS_FILE.yml 
+
+collections:
+  - name: community.general
+...
