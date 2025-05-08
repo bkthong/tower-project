@@ -6,4 +6,5 @@
   - name: set aa fact value
     set_fact: 
       myname: bk
+      cacheable: true
 
