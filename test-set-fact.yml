@@ -1,6 +1,6 @@
 # PLaybook to be used to gather facts for fact-caching
 - name: Fact caching with set fact
-  gather_facts: no
+  gather_facts: yes
   hosts: localhost
   tasks:
   - name: set aa fact value
